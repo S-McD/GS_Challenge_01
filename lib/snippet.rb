@@ -3,6 +3,6 @@ def snippet(string)
     if str_arr.count <= 5
         return string
     else str_arr2 = str_arr[0..4]
-        return str_arr2.join(" ").to_s.concat("...")
+        return str_arr2.join(" ") + "..."
     end
 end
