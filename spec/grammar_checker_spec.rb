@@ -1,7 +1,7 @@
 require "grammar_checker"
 
 RSpec.describe "checks words in a text for grammar and punctuation" do
-    context "given en empty string" do
+    context "given an empty string" do
         it "fails" do
             expect {grammar_checker("")}.to raise_error "Not a sentence"
         end
